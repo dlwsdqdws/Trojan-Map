@@ -131,7 +131,7 @@ Please select 1 - 8:
 ```
 
 
-## First task is to implement a function for each menu item
+## Function for each menu item
 
 ## Step 1: Autocomplete the location name
 
