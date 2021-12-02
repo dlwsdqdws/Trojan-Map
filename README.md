@@ -459,15 +459,3 @@ For example, we want to find the 8 closest points from ChickfilA.
 <p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.44.14.png" alt="Kclosest" width="500"/></p>
 
 <p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.43.56.png" alt="Kclosestmap" width="500"/></p>
-
-
-## Reporting Runtime:
-For each menu item, your program should show the time it took to finish each task.
-
-Please make sure to provide various examples when you report the runtime. For example for topological sort, show an example with few nodes and another example with 10 or more nodes. The idea is to see how your runtime grows as input size grows.
-
-## Runtime Comparison
-For shortest path algorithms, you should compare solving the same problem with different algorithms (Dijkstra and Bellman-Ford). Please show the results on at least 10 different examples.
-
-Similarly for TSP problem, please provide various examples that show the runtime comparison. In particular, you should show at what point using the exhaustive search is not practical and compare the same input with the heuristic implementation.
-
