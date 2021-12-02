@@ -145,7 +145,7 @@ Example:
 
 Input: "Saint" \
 Output: 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.18.41.png" alt="Trojan" width="500" /></p>
+<p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.18.41.png" alt="Trojan" width="500" /></p>
 
 
 ## Step 2: Find the place's Coordinates in the Map
