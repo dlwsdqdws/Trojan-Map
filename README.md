@@ -160,9 +160,9 @@ Example:
 
 Input: "Our Savior Chapel" \
 Output: 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.20.01.png" alt="Our Savior Chapel" width="500"/></p>
+<p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.20.01.png" alt="Our Savior Chapel" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.20.14.png" alt="Our Savior Chapel" width="500"/></p>
+<p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.20.14.png" alt="Our Savior Chapel" width="500"/></p>
 
 ## Step 3: CalculateShortestPath between two places
 
@@ -180,11 +180,11 @@ Example:
 Input: "Target", "ChickfilA" \
 Output: [ "2578244375", "5559640911", "6787470571", "6808093910", "6808093913", "6808093919", "6816831441", "6813405269", "6816193784", "6389467806", "6816193783", "123178876", "2613117895", "122719259", "6807243574", "6807243576", "213332111", "441895337", "441895335", "122719255", "2613117893", "6813405231", "122719216", "6813405232", "4015372486", "7071032399", "4015372485", "6813379479", "5237417650" ]
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.23.34.png" alt="Routing" width="500"/></p>
+<p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.23.34.png" alt="Routing" width="500"/></p>
 
 Comparing the result with the route in Apple Maps, we can find that The result in Trojan Map is very similar to the route in Apple Maps.
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/FE789D83A738B41C5AAB25F0C45DF924.jpg" alt="Routing" width="500"/></p>
+<p align="center"><img src="examples%20ressults/FE789D83A738B41C5AAB25F0C45DF924.jpg" alt="Routing" width="500"/></p>
 
 Both Dijkstra Algorithm and Bellman-Ford Algorithm can get the same answer, but rum time is different.
 
@@ -194,8 +194,8 @@ Both Dijkstra Algorithm and Bellman-Ford Algorithm can get the same answer, but 
 
 In this example, runtime of Dijkstra is 23521 msec, runtime of Bellman-Ford is 76848 msec.
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/DIJKSTRA.png" alt="dijkstra" width="500"/></p>
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/bellman_ford.png" alt="bellmanford" width="500"/></p>
+<p align="center"><img src="examples%20ressults/DIJKSTRA.png" alt="dijkstra" width="500"/></p>
+<p align="center"><img src="examples%20ressults/bellman_ford.png" alt="bellmanford" width="500"/></p>
 
 ## Step 4: The Traveling Trojan Problem (AKA Traveling Salesman!)
 
@@ -212,11 +212,11 @@ std::pair<double, std::vector<std::vector<std::string>>> TravellingTrojan(
       std::vector<std::string> &location_ids);
 ```
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/travellingtrojan.gif" alt="TSP videos" width="500"/></p>
+<p align="center"><img src="examples%20ressults/travellingtrojan.gif" alt="TSP videos" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/backtrackingR.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/backtrackingR.png" alt="TSP" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/travellingtrojan.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/travellingtrojan.png" alt="TSP" width="500"/></p>
 
 However, to get such an accurate result cost much time. The run time in this case is 507691 msec. Complexity of Backtracking is O(n!), where n is the number of points. Of course we can also get the Optimal solution by using Backtracking since it will traver all possible solutions.
 
@@ -225,7 +225,7 @@ However, to get such an accurate result cost much time. The run time in this cas
 2-opt is one of the simplest Heuristic Algorithm. The main idea behind it is to take a route that crosses over itself and reorder it so that it does not. 
 [The image below illustrates this issue](http://pedrohfsd.com/2017/08/09/2opt-part1.html).
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/img/2opt.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="img/2opt.png" alt="TSP" width="500"/></p>
 
 This is the same as changing E,A,C,B,D,F,E into E,A,B,C,D,F,E. Visually one can intuitively associate this to a rectangle and note that A,C and B,D are like diagonals which would then be greater than the laterals A,B and C,D. This is obviously a generalization though.
 
@@ -234,11 +234,11 @@ std::pair<double, std::vector<std::vector<std::string>>> TravellingTrojan_2opt(
       std::vector<std::string> &location_ids);
 ```
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/jf1tk-x9mq2.gif" alt="TSP videos" width="500"/></p>
+<p align="center"><img src="examples%20ressults/jf1tk-x9mq2.gif" alt="TSP videos" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/2optE.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/2optE.png" alt="TSP" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/2-opt.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/2-opt.png" alt="TSP" width="500"/></p>
 
 It can be seen that 2-opt can not always get the optimal solution but the run time is much shorter than Backtracking. Complexity of 2-opt is O(n^2), where n is the number of locations. 
 
@@ -246,11 +246,11 @@ It can be seen that 2-opt can not always get the optimal solution but the run ti
 
 Simulated Annealing(SA) is a probabilistic technique for approximating the global optimum of a given function. In TSP, the given function is the total length of traveling all locations and we want to get the minimun result. Unlike 2opt, it will not always move in the direction of local optima. If the new solution is better, then iterate to the new solution. On the contrary, iterate to a new solution with a little probability. This probability is related to the degree of excellence of the solution, and also related to the "temperature" of the SA. 2-opt with SA can make 2-opt not easy to fall into the local optimal situation. 
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/2-optsa.gif" alt="TSP videos" width="500"/></p>
+<p align="center"><img src="examples%20ressults/2-optsa.gif" alt="TSP videos" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/2optsaR.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/2optsaR.png" alt="TSP" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/2optsa.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/2optsa.png" alt="TSP" width="500"/></p>
 
 There is a mature method for parameter selection of SA. Normally, if we want to get a better result, we must spend more time. When solving TSP, we can set the simulated annealing time to a time that the customer can tolerate. 
 
@@ -260,18 +260,18 @@ In 2-opt move we remove 2 links from cyclic tour, this way obtaining 2 open segm
 
 [3-opt move cases are as follows](http://tsp-basics.blogspot.com/2017/03/3-opt-move.html):
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/img/3opt.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="img/3opt.png" alt="TSP" width="500"/></p>
 
 ```c++
 std::pair<double, std::vector<std::vector<std::string>>> TravellingTrojan_3opt(
       std::vector<std::string> &location_ids);
 ```
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/3-opt.gif" alt="TSP videos" width="500"/></p>
+<p align="center"><img src="examples%20ressults/3-opt.gif" alt="TSP videos" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/3optR.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/3optR.png" alt="TSP" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/3-opt.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/3-opt.png" alt="TSP" width="500"/></p>
 
 Complexity of 3-opt is O(n^3). In general, 3-opt will be more accurate than 2-opt and cost more time than 2-opt.
 
@@ -292,11 +292,11 @@ std::pair<double, std::vector<std::vector<std::string>>> TravellingTrojan_GA(
       std::vector<std::string> &location_ids);
 ```
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/ga.gif" alt="TSP videos" width="500"/></p>
+<p align="center"><img src="examples%20ressults/ga.gif" alt="TSP videos" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/GAR.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/GAR.png" alt="TSP" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/ga.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/ga.png" alt="TSP" width="500"/></p>
 
 The operating efficiency of GA largely depends on the selection of parameters. There are many papers on the selection strategy of genetic algorithm parameters, so I won’t repeat them here.
 
@@ -309,27 +309,27 @@ The locations are {"123120189", "4011837229", "4011837224", "2514542032", "25145
 
 The result of Backtracking is:
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/BTR2.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/BTR2.png" alt="TSP" width="500"/></p>
 
 The result of 2-opt is:
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/2optR2.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/2optR2.png" alt="TSP" width="500"/></p>
 
 The result of 2-opt with SA is:
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/2optsaR2.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/2optsaR2.png" alt="TSP" width="500"/></p>
 
 The result of 3-opt is:
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/3optR2.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/3optR2.png" alt="TSP" width="500"/></p>
 
 The result of GA is:
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/GAR2.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/GAR2.png" alt="TSP" width="500"/></p>
 
 The comparison of path length and running time is shown in the following table:
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/comparing.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/comparing.png" alt="TSP" width="500"/></p>
 
 It can be seen that, in this case, path length of 3-opt is closest to the best solution. But combining accuracy and running time, genetic algorithm is the best algorithm. 
 
@@ -427,9 +427,9 @@ that Tommy must go to `Cardinal Gardens` prior to `Coffee Bean1`.
 Output: Cardinal Gardens -> Coffee Bean1 -> CVS
 ```
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.43.11.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.43.11.png" alt="TSP" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.42.54.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.42.54.png" alt="TSP" width="500"/></p>
 
 
 ## Step 7: Find K closest points
@@ -444,6 +444,6 @@ std::vector<std::string> FindKClosestPoints(std::string name, int k);
 
 For example, we want to find the 8 closest points from ChickfilA.
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.44.14.png" alt="Kclosest" width="500"/></p>
+<p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.44.14.png" alt="Kclosest" width="500"/></p>
 
-<p align="center"><img src="https://github.com/ee538/final-project-dlwsdqdws/blob/master/examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.43.56.png" alt="Kclosestmap" width="500"/></p>
+<p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.43.56.png" alt="Kclosestmap" width="500"/></p>
