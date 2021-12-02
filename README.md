@@ -130,18 +130,6 @@ Torjan Map
 Please select 1 - 8:
 ```
 
-## Test the program
-
-We created some tests for you to test your program, please run
-```shell
-$ bazel test tests:trojanmap_test
-```
-
-Please add you test in the [trojanmap_test_student.cc](tests/trojanmap_test_student.cc) and run
-
-```shell
-$ bazel test tests:trojanmap_test_student
-```
 
 ## First task is to implement a function for each menu item
 
