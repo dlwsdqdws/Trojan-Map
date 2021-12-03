@@ -1401,12 +1401,20 @@ bool TrojanMap::CycleDetection(std::vector<double> &square) {
   std::unordered_set<Node, hashfun, equalfun> st;
   double lonleft = square[0], lonright = square[1], latup = square[2], latdown = square[3];
   if(lonright <= lonleft || latdown >= latup) return false;
+  std::vector<std::string> locations;
+  for(auto& [k,v] : data){
+    if(v.lon < lonleft || v.lon > lonright || v.lat < latdown || v.lat > latup) continue;
+    locations.push_back(v.id);
+  }
   for(auto& [k,v] : data){
     if(st.count(v)) continue;
     if(v.lon < lonleft || v.lon > lonright || v.lat < latdown || v.lat > latup) continue;
-    if(dfs_cycle(v, st, square, "")) return true;
+    if(dfs_cycle(v, st, square, "")){
+      PlotPointsandEdges(locations, square);
+      return true;
+    }
   }
-  //PlotPointsandEdges();
+  PlotPointsandEdges(locations, square);
   return false;
 }
 
