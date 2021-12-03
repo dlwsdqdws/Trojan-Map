@@ -349,57 +349,24 @@ Example 1:
 Input: square = {-118.299, -118.264, 34.032, 34.011}
 Output: true
 ```
+
+<p align="center"><img src="examples%20ressults/cycle1.png" alt="TSP" width="500"/></p>
+
 Here we use the whole original graph as our subgraph. 
-<p align="center"><img src="img/cycle1.png" alt="TSP" width="500"/></p>
+<p align="center"><img src="examples%20ressults/cycle1G.png" alt="TSP" width="500"/></p>
 
 Example 2:
 ```shell
 Input: square = {-118.290919, -118.282911, 34.02235, 34.019675}
 Output: false
 ```
+
+<p align="center"><img src="examples%20ressults/cycle2G.png" alt="TSP" width="500"/></p>
+
 Here we use a square area inside USC campus as our subgraph
 <p align="center"><img src="img/cycle2.png" alt="TSP" width="500"/></p>
 
-Note: You could use the function below to visualize the subgraph. 
 
-```c++
-/**
- * PlotPoints: Given a vector of location ids draws the points on the map (no path).
- * 
- * @param  {std::vector<std::string>} location_ids : points inside square
- * @param  {std::vector<double>} square : boundary
- */
-void TrojanMap::PlotPointsandEdges(std::vector<std::string> &location_ids, std::vector<double> &square)
-```
-```shell
-5
-**************************************************************
-* 5. Cycle Detection                                          
-**************************************************************
-
-Please input the left bound longitude(between -118.299 and -118.264):-118.299
-Please input the right bound longitude(between -118.299 and -118.264):-118.264
-Please input the upper bound latitude(between 34.011 and 34.032):34.032
-Please input the lower bound latitude(between 34.011 and 34.032):34.011
-*************************Results******************************
-there exists cycle in the subgraph 
-**************************************************************
-Time taken by function: 273734 microseconds
-
-5
-**************************************************************
-* 5. Cycle Detection                                          
-**************************************************************
-
-Please input the left bound longitude(between -118.299 and -118.264):-118.290919
-Please input the right bound longitude(between -118.299 and -118.264):-118.282911
-Please input the upper bound latitude(between 34.011 and 34.032):34.02235
-Please input the lower bound latitude(between 34.011 and 34.032):34.019675
-*************************Results******************************
-there exist no cycle in the subgraph 
-**************************************************************
-Time taken by function: 290371 microseconds
-```
 ## Step 6: Topological Sort
 
 ```c++
@@ -447,3 +414,10 @@ For example, we want to find the 8 closest points from ChickfilA.
 <p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.44.14.png" alt="Kclosest" width="500"/></p>
 
 <p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.43.56.png" alt="Kclosestmap" width="500"/></p>
+
+
+## Acknowledgment and References
+
+I gratefully acknowledge the help of professor [Arash Saifhashemi](https://viterbi.usc.edu/directory/faculty/Saifhashemi/Arash) and alumni Haoxin Ma, Tianhong Qi and Zixin Zhang. 
+
+All references are attached to the citation in the form of hyperlinks.
