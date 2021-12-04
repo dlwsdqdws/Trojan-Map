@@ -6,6 +6,10 @@ Name: Lei Lu
 
 Email: lulei@usc.edu
 
+## Video Introduction
+
+[](https://www.youtube.com/watch?v=2M0AHFRU_sY&feature=youtu.be)
+
 ## TrojanMap
 
 This project focuses on using data structures in C++ and implementing various graph algorithms to build a map application.
@@ -285,7 +289,6 @@ Genetic algorithms(GA) are heuristic search algorithms inspired by the process t
 4. Crossing over.
 5. Mutating to introduce variations.
 
-These algorithms can be implemented to find a solution to the optimization problems of various types. One such problem is the Traveling Salesman Problem. The problem says that a salesman is given a set of cities, he has to find the shortest route to as to visit each city exactly once and return to the starting city. 
 
 ```c++
 std::pair<double, std::vector<std::vector<std::string>>> TravellingTrojan_GA(
