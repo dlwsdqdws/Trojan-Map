@@ -8,7 +8,7 @@ Email: lulei@usc.edu
 
 ## Video Introduction
 
-[![asciicast](https://www.youtube.com/watch?v=2M0AHFRU_sY&feature=youtu.be.png)](https://www.youtube.com/watch?v=2M0AHFRU_sY&feature=youtu.be)
+[![asciicast](https://img.youtube.com/vi/<watch?v=2M0AHFRU_sY>/0.jpg)](https://www.youtube.com/watch?v=2M0AHFRU_sY&feature=youtu.be)
 
 
 ## TrojanMap
