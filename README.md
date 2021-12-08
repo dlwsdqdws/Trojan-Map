@@ -183,7 +183,13 @@ Given 2 locations A and B, find the best route from A to B. The distance between
 Example:
 
 Input: "Target", "ChickfilA" \
-Output: [ "2578244375", "5559640911", "6787470571", "6808093910", "6808093913", "6808093919", "6816831441", "6813405269", "6816193784", "6389467806", "6816193783", "123178876", "2613117895", "122719259", "6807243574", "6807243576", "213332111", "441895337", "441895335", "122719255", "2613117893", "6813405231", "122719216", "6813405232", "4015372486", "7071032399", "4015372485", "6813379479", "5237417650" ]
+Output: [ "5237417650","6813379479","5237381975","6813379481","7204030702","4015372484","6813379430","6813379429",
+      "544671955","21306061","6813379428","6813416122","544671962","21306060","6813379469","6813379427",
+      "123005255","6807200376","6807200380","6813379451","6813379463","123327639","6813379460","4141790922",
+      "4015423963","1286136447","1286136422","4015423962","6813379494","63068643","6813379496","123241977",
+      "4015372479","4015372477","1732243576","6813379548","4015372476","4015372474","4015372468","4015372463",
+      "6819179749", "1732243544", "6813405275","348121996","348121864","6813405280","1472141024","6813411590",
+      "216155217","6813411589","1837212103","1837212101","6820935911","4547476733" ]
 
 <p align="center"><img src="examples%20ressults/Screen%20Shot%202021-12-01%20at%2010.23.34.png" alt="Routing" width="500"/></p>
 
@@ -195,7 +201,7 @@ Both Dijkstra Algorithm and Bellman-Ford Algorithm can get the same answer, but 
 
 **Complexity of Dijkstra with heap-optimization is O(nlogm), where n is the number of points and m is the number of edges in map.**
 
-**Complexity of Bellman-Ford with queue-optimization is O(nm) in worst cases and O(n) generally, where n is the number of points and m is the number of edges in map.**
+**Complexity of Bellman-Ford with queue-optimization is O(nm), where n is the number of points and m is the number of edges in map.**
 
 In this example, runtime of Dijkstra is 23521 msec, runtime of Bellman-Ford is 76848 msec.
 
